@@ -1,0 +1,17 @@
+{
+    "name": "koala/registration-bundle",
+    "description": "Symfony bundle to handle registrations for different kinds of events",
+    "authors": [
+        {
+            "name": "Jonas Flodén",
+            "email": "jonas@koalasoft.se"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Koala\\RegistrationBundle": "" }
+    },
+    "target-dir": "Koala/RegistrationBundle"    
+}
